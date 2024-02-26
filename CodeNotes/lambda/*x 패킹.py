@@ -3,7 +3,9 @@ solution = lambda *x:sum(x)
 """
 [note]
 - 람다 -> 익명함수
-- *x -> 함수로 들어오는 인자를 튜플로 패킹
+- *x -> 인자로 받는 여러 개의 값을 하나의 객체(튜플)로 packing
+  (※packing : *매개변수, unpacking : **인자) 
+  [참고] https://wikidocs.net/22801
 
 -> 기존 풀이
     def solution(num1, num2):
