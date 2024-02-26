@@ -7,6 +7,7 @@
 
 ## Contents
 ### ETC
+- ***lambda*** [🔗](https://github.com/2kilometer/CodingTest/tree/db99d4af92c40fb4a1ff63782d238dbd59595e96/CodeNotes/lambda)
 
 <br><br>
 
