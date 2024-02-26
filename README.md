@@ -1,2 +1,2 @@
-# CodingTest
-코딩테스트 풀이
+# Coding Test
+코딩테스트 정리 공간
