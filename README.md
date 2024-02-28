@@ -7,7 +7,9 @@
 
 ## Contents
 ### ETC
-- ***lambda*** [🔗](https://github.com/2kilometer/CodingTest/tree/db99d4af92c40fb4a1ff63782d238dbd59595e96/CodeNotes/lambda)
+- ***lambda*** [🔗](CodeNotes/lambda)
+- ***수학 계산의 묘미*** [🔗](CodeNotes/수학의묘미)
+
 
 <br><br>
 
