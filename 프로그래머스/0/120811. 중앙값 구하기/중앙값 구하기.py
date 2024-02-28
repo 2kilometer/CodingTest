@@ -1,2 +1,3 @@
+import numpy as np
 def solution(array):
-    return sorted(array)[len(array) // 2]
+    return np.median(array)
