@@ -1,4 +1,2 @@
-import re
 def solution(my_string):
-    my_string = list(map(int, re.findall(r'\d', my_string)))
-    return sorted(my_string)
+    return sorted([int(v) for v in my_string if v.isdigit()])
