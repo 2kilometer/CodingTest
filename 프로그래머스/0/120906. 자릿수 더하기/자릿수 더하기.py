@@ -1,2 +1,3 @@
+from functools import reduce
 def solution(n):
-    return sum(int(str(n)[i]) for i in range(len(str(n))))
+    return reduce(lambda x,y: int(x)+int(y), str(n), 0)
