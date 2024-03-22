@@ -1,0 +1,27 @@
+"""
+# cmp => compare 함수
+일반적으로 sort, sorted 쓸 때 key에 lambda 대신에 cmp_to_key(함수명)을 ㅅ용
+
+return 음수 : 먼저 들어온 요소가 앞으로 정렬됨
+return 0 : 바뀌지 않음
+return 양수 : 나중에 들어온 요소가 앞으로 정렬됨(먼저들어온 요소보다 앞에 배치됨)
+
+※ 참고
+https://velog.io/@heyday_7/python-%EC%A1%B0%EA%B1%B4-%EC%A0%95%EB%A0%AC-%ED%95%98%EA%B8%B0-cmptokey
+"""
+
+# 프로그래머스 '가장 큰 수' 문제
+def compare(x, y):
+    if x+y > y+x:
+    	return -1
+    elif x+y == y+x:
+    	return 0
+    else:
+    	return 1
+
+def solution(numbers):
+    answer = sorted(numbers, key=cmp_to_key(compare))
+    if set(answer) == {0}:
+        return "0"
+    else:
+        return "".join([str(v) for v in answer])
