@@ -1,0 +1,15 @@
+"""
+* 문자열은 아스키값으로 치환되서 정렬되어 같은 인덱스 값으로 비교
+-> 숫자를 합쳤을 때 큰 수를 만들고자 하면, 숫자를 문자열로 치환
+-> 이후, 최대 자릿수만큼 숫자를 바꾼 후 문자열 정렬을 진행하면 됨
+"""
+
+# 프로그래머스 '가장 큰 수' 문제
+def solution(numbers):
+    numbers = list(map(str, numbers))
+    numbers.sort(key=lambda x: x*3, reverse=True)
+    return str(int(''.join(numbers)))
+
+"""
+* 00 -> 0 처리하는 방법 : str(int())
+"""
