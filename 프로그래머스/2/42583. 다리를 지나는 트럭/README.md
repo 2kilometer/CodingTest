@@ -1,6 +1,6 @@
 # [level 2] 다리를 지나는 트럭 - 42583 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42583?language=python3) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42583) 
 
 ### 성능 요약
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 03월 24일 19:18:35
+2024년 03월 24일 19:25:46
 
 ### 문제 설명
 
