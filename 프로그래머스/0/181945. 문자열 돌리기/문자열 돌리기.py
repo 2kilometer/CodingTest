@@ -1,2 +1,1 @@
-for v in input():
-    print(v)
+print('\n'.join(input()))
