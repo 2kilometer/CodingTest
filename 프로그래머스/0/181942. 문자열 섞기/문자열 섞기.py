@@ -1,2 +1,3 @@
-def solution(str1, str2):  
-    return ''.join([a+b for a,b in zip(list(str1), list(str2))])
+from functools import reduce
+def solution(str1, str2):
+    return ''.join(reduce(lambda a,b: a+b, zip(str1, str2)))
