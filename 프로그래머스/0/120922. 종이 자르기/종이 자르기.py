@@ -1,2 +1,2 @@
 def solution(M, N):
-    return (min(M, N)-1) + (max(M, N)-1)*min(M, N)
+    return (M-1) + (N-1)*M
