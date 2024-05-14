@@ -5,7 +5,7 @@
 <br>
 
 ## Update
-- **해결 문항 : 128개**
+- **해결 문항 : 176개**
 - **사용 언어** : <img src="https://img.shields.io/badge/python-F6F8FA.svg?style=flat&logo=python&logoColor=3776AB" />, <img src="https://img.shields.io/badge/SQL-F6F8FA.svg?style=flat&logo=mysql&logoColor=4479A1" />
 
 <br><br>
