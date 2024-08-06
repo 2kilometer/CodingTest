@@ -1,6 +1,6 @@
 """
 # cmp => compare 함수
-일반적으로 sort, sorted 쓸 때 key에 lambda 대신에 cmp_to_key(함수명)을 ㅅ용
+일반적으로 sort, sorted 쓸 때 key에 lambda 대신에 cmp_to_key(함수명)을 사용
 
 return 음수 : 먼저 들어온 요소가 앞으로 정렬됨
 return 0 : 바뀌지 않음
